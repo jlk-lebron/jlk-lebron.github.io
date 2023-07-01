@@ -27,7 +27,10 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [
           { title: 'Vue3初体验', path: '/vue/Vue3初体验.md' },
-          { title: 'Vue常见指令', path: '/vue/Vue常见指令.md' }
+          { title: 'Vue3通信方式', path: '/vue/Vue3通信方式.md' },
+          { title: 'Vue常见指令', path: '/vue/Vue常见指令.md' },
+          { title: 'Vue3 组合式API', path: '/vue/Vue3 组合式API.md' },
+          { title: 'Pinia', path: '/vue/Pinia.md' }
         ]
       },
       {

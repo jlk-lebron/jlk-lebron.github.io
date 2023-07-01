@@ -1,6 +1,3 @@
-vue3 官网：https://cn.vuejs.org/
-vite 官网：https://cn.vitejs.dev/
-
 ## 1. 创建 vue3 脚手架两种方式
 
 1. webpack
