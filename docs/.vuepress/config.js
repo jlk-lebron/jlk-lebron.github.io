@@ -6,6 +6,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: '关于', link: '/' },
       {
         text: '博客',
         items: [
@@ -30,7 +31,8 @@ module.exports = {
           { title: 'Vue3通信方式', path: '/vue/Vue3通信方式.md' },
           { title: 'Vue常见指令', path: '/vue/Vue常见指令.md' },
           { title: 'Vue3 组合式API', path: '/vue/Vue3 组合式API.md' },
-          { title: 'Pinia', path: '/vue/Pinia.md' }
+          { title: 'Pinia', path: '/vue/Pinia.md' },
+          { title: '跨域问题', path: '/vue/跨域相关.md' },
         ]
       },
       {
