@@ -1,3 +1,5 @@
+# Vue
+
 ### Vue3.0 为什么要用 proxy？
 
 在 Vue2 中， 0bject.defineProperty 会改变原始数据，而 Proxy 是创建对象的虚拟表示，并提供 set 、get 和 deleteProperty 等处理器，这些处理器可在访问或修改原始对象上的属性时进行拦截，有以下特点 ∶
@@ -1284,7 +1286,6 @@ javascript复制代码function updateChildren (parentElm, oldCh, newCh, inserted
 - ```
   patchVnode
   ```
-
   做了以下操作：
 
   - 找到对应的真实 `dom`，称为 `el`
@@ -1292,11 +1293,9 @@ javascript复制代码function updateChildren (parentElm, oldCh, newCh, inserted
   - 如果 `oldVnode`有子节点而 `VNode`没有，则删除 `el`子节点
   - 如果 `oldVnode`没有子节点而 `VNode`有，则将 `VNode`的子节点真实化后添加到 `el`
   - 如果两者都有子节点，则执行 `updateChildren`函数比较子节点
-
 - ```
   updateChildren
   ```
-
   主要做了以下操作：
 
   - 设置新旧 `VNode`的头尾指针

@@ -1,6 +1,4 @@
-# day03
-
-## 1. 组合式 API
+# 1. 组合式 API
 
 ### 1.1. setup
 
@@ -377,4 +375,3 @@ app.listen(3000, "localhost", (err) => {
 ```
 node index.js
 ```
-

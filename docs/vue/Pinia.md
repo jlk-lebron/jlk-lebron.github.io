@@ -1,6 +1,5 @@
-# day04
 
-## pinia
+# Pinia
 
 https://pinia.vuejs.org/zh/
 
@@ -102,8 +101,8 @@ const counterStore = useCounterStore();
   ```ts
   counterStore.oddOrEven;
   ```
-
 - 更新数据
+
   - 如果更新需要发送请求，就定义 action 函数
   - 如果更新不需要发送请求
     - 更新一个数据，直接更新即可
@@ -112,7 +111,6 @@ const counterStore = useCounterStore();
 ## Vue-Router
 
 1. 作用：用来开发单页面应用（SPA）
-
 2. 单页面应用特点：
 
 - 整个应用只有一个完整页面，所有更新都在这个页面中更新的
@@ -127,8 +125,8 @@ const counterStore = useCounterStore();
   - 实现原理不一样
     - 通过 window.location.hash 改变路由路径
     - 通过 window.onhashchange 事件，监听路由路径的变化，做局部更新
-
 - history
+
   - 路径没有#
   - 兼容性稍差
   - 实现原理不一样

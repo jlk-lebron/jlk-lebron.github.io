@@ -1,3 +1,5 @@
+# Vue通信方式
+
 ## 1. 组件间通信 - props
 
 1. 父组件给子组件绑定数据
@@ -168,12 +170,10 @@ this.$emit("input", yyy);
 
   - 绑定 modelValue 属性
   - 绑定 update:modelValue 自定义事件
-
 - v-model:xxx="xxx"
 
   - 绑定 xxx 属性
   - 绑定 update:xxx 自定义事件
-
 - 如果只有一个数据需要双向绑定，用 v-model="xxx"
 - 如果有多个数据需要双向绑定，用 v-model:xxx="xxx"
 
