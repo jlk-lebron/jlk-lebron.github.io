@@ -1,8 +1,3 @@
-
-# Pinia
-
-https://pinia.vuejs.org/zh/
-
 ### 1. pinia 和 vuex 区别
 
 - pinia 没有 mutations

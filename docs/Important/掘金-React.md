@@ -1,5 +1,3 @@
-# React
-
 ## 如何创建一个 react 的项目（使用脚手架）
 
 - 安装 cr 脚手架：npm install -g create-react-app
