@@ -54,7 +54,7 @@ module.exports = {
         title: "前端性能优化",
         link: "/",
         collapsable: true, // 不折叠
-        children: [{ title: "性能优化", path: "/前端性能优化/优化.md" }],
+        children: [{ title: "前端性能优化", path: "/前端性能优化/优化.md" }],
       },
       {
         title: "小程序",
