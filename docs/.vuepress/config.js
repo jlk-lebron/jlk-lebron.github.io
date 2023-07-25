@@ -3,7 +3,7 @@ module.exports = {
   description: "小王的博客",
   base: "/jlk-wk/",
   theme: "vdoing",
-  head: [["link", { rel: "icon", href: "./static/icon-小米归属.png" }]],
+  head: [["link", { rel: "icon", href: "./static/icon-小米归属.svg" }]],
   themeConfig: {
     nav: [
       { text: "首页", link: "/docs/index.md" },
