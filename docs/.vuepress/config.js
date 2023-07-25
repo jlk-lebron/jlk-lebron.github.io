@@ -25,7 +25,7 @@ module.exports = {
       {
         title: "Vue",
         link: "/",
-        collapsable: false, // 不折叠
+        collapsable: true, // 不折叠
         children: [
           { title: "Vue3初体验", path: "/vue/Vue3初体验.md" },
           { title: "Vue3通信方式", path: "/vue/Vue3通信方式.md" },
@@ -51,13 +51,13 @@ module.exports = {
       {
         title: "前端性能优化",
         link: "/",
-        collapsable: false, // 不折叠
+        collapsable: true, // 不折叠
         children: [{ title: "yahoo性能优化", path: "/前端性能优化/优化.md" }],
       },
       {
         title: "小程序",
         link: "/",
-        collapsable: false, // 不折叠
+        collapsable: true, // 不折叠
         children: [
           {
             title: "小程序数据绑定",
