@@ -94,8 +94,8 @@
 //   },
 // };
 
-const baiduCode = require("./config/baiduCode.js"); // 百度统计hm码
-const htmlModules = require("./config/htmlModules.js");
+// const baiduCode = require("./config/baiduCode.js"); // 百度统计hm码
+// const htmlModules = require("./config/htmlModules.js");
 
 module.exports = {
   theme: "vdoing", // 使用npm包主题
@@ -104,20 +104,20 @@ module.exports = {
   title: "Wang's blog",
   description:
     "web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。",
-  // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  base: "/jlk-wk/", // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
   themeConfig: {
     // 导航配置
     nav: [
-      { text: "首页", link: "/" },
+      { text: "首页", link: "/docs/index.md" },
       {
         text: "前端",
-        link: "/web/", //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: "/", //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-        ]
-      }
+        ],
+      },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: "/img/logo.png", // 导航栏logo
@@ -204,7 +204,7 @@ module.exports = {
     },
 
     // 插入hmtl(广告)模块
-    htmlModules,
+    // htmlModules,
   },
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -309,7 +309,7 @@ module.exports = {
     [
       "vuepress-plugin-baidu-tongji", // 百度统计 （你可以去掉）
       {
-        hm: baiduCode || "503f098e7e5b3a5b5d8c5fc2938af002",
+        // hm: baiduCode || "503f098e7e5b3a5b5d8c5fc2938af002",
       },
     ],
     [
