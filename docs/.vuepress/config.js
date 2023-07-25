@@ -5,7 +5,7 @@ module.exports = {
   theme: "vdoing",
   themeConfig: {
     nav: [
-      { text: "首页", link: "/docs/README.md" },
+      { text: "首页", link: "/docs/index.md" },
       { text: "关于", link: "/" },
       {
         text: "博客",
