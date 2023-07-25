@@ -21,6 +21,7 @@ module.exports = {
         lang: "zh-CN",
       },
     },
+    sidebar: 'structuring' ,
     sidebar: [
       {
         title: "Vue",

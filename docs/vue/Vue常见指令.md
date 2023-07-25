@@ -1,3 +1,12 @@
+---
+title: Vue常见指令
+date: 2023-06-25 20:12:59
+permalink: /pages/aa6377/
+categories:
+  - vue
+tags:
+  - 
+---
 1. `v-model`：用于在表单元素及组件上创建双向数据绑定。
 
 ```HTML

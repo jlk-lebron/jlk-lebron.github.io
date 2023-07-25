@@ -1,3 +1,12 @@
+---
+title: 掘金-JavaScript
+date: 2023-06-25 21:18:52
+permalink: /pages/4f8654/
+categories:
+  - Important
+tags:
+  - 
+---
 ### 1. 根据下面 _ES6_ 构造函数的书写方式，要求写出 _ES5_ 的
 
 ```kotlin

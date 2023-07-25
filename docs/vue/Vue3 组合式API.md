@@ -1,3 +1,12 @@
+---
+title: Vue3 组合式API
+date: 2023-07-01 09:26:32
+permalink: /pages/34bcc6/
+categories:
+  - vue
+tags:
+  - 
+---
 ## 1. 组合式 API
 
 ### 1.1. setup

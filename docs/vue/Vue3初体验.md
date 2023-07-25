@@ -1,3 +1,12 @@
+---
+title: Vue3初体验
+date: 2023-06-26 21:11:08
+permalink: /pages/5ba336/
+categories:
+  - vue
+tags:
+  - 
+---
 ## 1. 创建 vue3 脚手架两种方式
 
 1. webpack

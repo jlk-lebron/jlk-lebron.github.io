@@ -1,3 +1,12 @@
+---
+title: Vue3通信方式
+date: 2023-06-27 19:41:01
+permalink: /pages/afcf45/
+categories:
+  - vue
+tags:
+  - 
+---
 ## 1. 组件间通信 - props
 
 1. 父组件给子组件绑定数据

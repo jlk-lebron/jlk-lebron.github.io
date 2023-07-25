@@ -1,3 +1,12 @@
+---
+title: Pinia
+date: 2023-07-01 09:26:32
+permalink: /pages/4b8ce7/
+categories:
+  - vue
+tags:
+  - 
+---
 ### 1. pinia 和 vuex 区别
 
 - pinia 没有 mutations

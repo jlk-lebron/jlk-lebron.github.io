@@ -1,3 +1,12 @@
+---
+title: 掘金-Vue
+date: 2023-06-25 21:18:52
+permalink: /pages/99e2b6/
+categories:
+  - Important
+tags:
+  - 
+---
 ### Vue3.0 为什么要用 proxy？
 
 在 Vue2 中， 0bject.defineProperty 会改变原始数据，而 Proxy 是创建对象的虚拟表示，并提供 set 、get 和 deleteProperty 等处理器，这些处理器可在访问或修改原始对象上的属性时进行拦截，有以下特点 ∶

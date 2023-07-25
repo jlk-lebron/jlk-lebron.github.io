@@ -1,3 +1,12 @@
+---
+title: 掘金-React
+date: 2023-06-25 21:18:52
+permalink: /pages/fed656/
+categories:
+  - Important
+tags:
+  - 
+---
 ## 如何创建一个 react 的项目（使用脚手架）
 
 - 安装 cr 脚手架：npm install -g create-react-app
