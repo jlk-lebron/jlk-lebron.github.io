@@ -10,11 +10,11 @@ actionText: 立刻进入 →
 features: # 可选的
   - title: 前端
     details: JavaScript、ES6、Vue框架等前端技术
-    link: /web/ # 可选
+    link:  /pages/ # 可选
     imgUrl: web.png # 可选
   - title: 页面
     details: html(5)/css(3)，前端页面相关技术
-    link: /ui/
+    link: 
     imgUrl: ui.png
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章
@@ -26,9 +26,8 @@ features: # 可选的
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 # hideRightBar: true # 是否隐藏右侧边栏
 ---
-
-
 <!-- 小熊猫 -->
+
 <!-- <img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;"> -->
 
 <!--
