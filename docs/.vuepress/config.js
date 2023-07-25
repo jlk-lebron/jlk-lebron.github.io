@@ -54,6 +54,41 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [{ title: "yahoo性能优化", path: "/前端性能优化/优化.md" }],
       },
+      {
+        title: "小程序",
+        link: "/",
+        collapsable: false, // 不折叠
+        children: [
+          {
+            title: "小程序数据绑定",
+            path: "/小程序/01.小程序数据绑定.md",
+          },
+          {
+            title: "小程序事件绑定",
+            path: "/小程序/02.小程序事件绑定.md",
+          },
+          {
+            title: "小程序路由跳转",
+            path: "/小程序/03.小程序路由跳转.md",
+          },
+          {
+            title: "小程序生命周期",
+            path: "/小程序/04.小程序生命周期.md",
+          },
+          {
+            title: "小程序数据请求",
+            path: "/小程序/05.小程序数据请求.md",
+          },
+          {
+            title: "小程序列表渲染",
+            path: "/小程序/06.小程序列表渲染.md",
+          },
+          {
+            title: "小程序本地缓存",
+            path: "/小程序/07.小程序本地缓存.md",
+          },
+        ],
+      },
     ],
   },
 };
