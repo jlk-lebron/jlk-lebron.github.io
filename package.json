@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "vuepress-plugin-side-anchor": "^1.0.6",
-    "vuepress-theme-reco": "^1.6.17"
+    "vuepress-theme-reco": "^1.6.17",
+    "vuepress-theme-vdoing": "^1.12.8"
   }
 }

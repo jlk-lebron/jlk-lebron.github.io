@@ -2,7 +2,7 @@ module.exports = {
   title: "小王的博客",
   description: "小王的博客",
   base: "/jlk-wk/",
-  theme: "reco",
+  theme: "vdoing",
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
