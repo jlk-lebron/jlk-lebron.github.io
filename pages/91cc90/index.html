@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>react-router-dom | 小王的博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="logo.png">
+    <meta name="description" content="小王的博客">
+    
+    <link rel="preload" href="/assets/css/0.styles.cc68c345.css" as="style"><link rel="preload" href="/assets/js/app.8d6e8c80.js" as="script"><link rel="preload" href="/assets/js/2.d1a10b95.js" as="script"><link rel="preload" href="/assets/js/26.b4839473.js" as="script"><link rel="prefetch" href="/assets/js/10.078876b2.js"><link rel="prefetch" href="/assets/js/11.0d348b04.js"><link rel="prefetch" href="/assets/js/12.674ecd59.js"><link rel="prefetch" href="/assets/js/13.2cdcfa0f.js"><link rel="prefetch" href="/assets/js/14.7578ba3e.js"><link rel="prefetch" href="/assets/js/15.ed069ce5.js"><link rel="prefetch" href="/assets/js/16.0476bc39.js"><link rel="prefetch" href="/assets/js/17.ffbcbdbd.js"><link rel="prefetch" href="/assets/js/18.564accfd.js"><link rel="prefetch" href="/assets/js/19.0909a6e8.js"><link rel="prefetch" href="/assets/js/20.597bd687.js"><link rel="prefetch" href="/assets/js/21.b7b22c7e.js"><link rel="prefetch" href="/assets/js/22.e3bb53df.js"><link rel="prefetch" href="/assets/js/23.4040088c.js"><link rel="prefetch" href="/assets/js/24.888c00f7.js"><link rel="prefetch" href="/assets/js/25.bae0a4d4.js"><link rel="prefetch" href="/assets/js/27.4c4ac2c9.js"><link rel="prefetch" href="/assets/js/28.6c49ccc3.js"><link rel="prefetch" href="/assets/js/29.51c04b02.js"><link rel="prefetch" href="/assets/js/3.59105492.js"><link rel="prefetch" href="/assets/js/30.61b3e3f7.js"><link rel="prefetch" href="/assets/js/31.e6c5d0ac.js"><link rel="prefetch" href="/assets/js/32.9f59f731.js"><link rel="prefetch" href="/assets/js/33.c57a674a.js"><link rel="prefetch" href="/assets/js/34.7b1d074b.js"><link rel="prefetch" href="/assets/js/35.41092fee.js"><link rel="prefetch" href="/assets/js/36.579a58ab.js"><link rel="prefetch" href="/assets/js/37.bb015b50.js"><link rel="prefetch" href="/assets/js/38.dd4347c1.js"><link rel="prefetch" href="/assets/js/39.682bbcb3.js"><link rel="prefetch" href="/assets/js/4.dcab0898.js"><link rel="prefetch" href="/assets/js/40.07e67951.js"><link rel="prefetch" href="/assets/js/41.653b5e32.js"><link rel="prefetch" href="/assets/js/42.cffbb347.js"><link rel="prefetch" href="/assets/js/43.688a94c9.js"><link rel="prefetch" href="/assets/js/44.42a52d40.js"><link rel="prefetch" href="/assets/js/45.5efaf9e2.js"><link rel="prefetch" href="/assets/js/46.fc11a50f.js"><link rel="prefetch" href="/assets/js/47.c54685cf.js"><link rel="prefetch" href="/assets/js/48.01b4bfa6.js"><link rel="prefetch" href="/assets/js/49.5341fdc9.js"><link rel="prefetch" href="/assets/js/5.9e5cbc4b.js"><link rel="prefetch" href="/assets/js/50.867d8e1a.js"><link rel="prefetch" href="/assets/js/51.7c7c986d.js"><link rel="prefetch" href="/assets/js/52.2e397db2.js"><link rel="prefetch" href="/assets/js/53.5790beaf.js"><link rel="prefetch" href="/assets/js/54.9d4c626a.js"><link rel="prefetch" href="/assets/js/55.19763e86.js"><link rel="prefetch" href="/assets/js/56.dd197ef7.js"><link rel="prefetch" href="/assets/js/57.667b5e2b.js"><link rel="prefetch" href="/assets/js/58.971bd997.js"><link rel="prefetch" href="/assets/js/59.1a5b48bb.js"><link rel="prefetch" href="/assets/js/6.28415204.js"><link rel="prefetch" href="/assets/js/60.e4ee51c1.js"><link rel="prefetch" href="/assets/js/61.c044fdf2.js"><link rel="prefetch" href="/assets/js/62.c6cf56f4.js"><link rel="prefetch" href="/assets/js/63.a381078e.js"><link rel="prefetch" href="/assets/js/64.76f59cd9.js"><link rel="prefetch" href="/assets/js/7.aa2959d8.js"><link rel="prefetch" href="/assets/js/8.55b74a1e.js"><link rel="prefetch" href="/assets/js/9.1809c38a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.cc68c345.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">小王的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/index.html" class="nav-link">首页</a></div><div class="nav-item"><a href="/" class="nav-link">关于</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="博客" class="dropdown-title"><!----> <span class="title" style="display:;">博客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/jlk-lebron/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/1849806240878344" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><div class="blogger"><img src="https://cdn.staticaly.com/gh/jlk-lebron/blog-img@main/PicGo/zms.jpg"> <div class="blogger-info"><h3>Lebron Jia</h3> <span>前端小学生</span></div></div> <nav class="nav-links"><div class="nav-item"><a href="/docs/index.html" class="nav-link">首页</a></div><div class="nav-item"><a href="/" class="nav-link">关于</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="博客" class="dropdown-title"><!----> <span class="title" style="display:;">博客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/jlk-lebron/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/1849806240878344" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Important</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>ES6</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>前端性能优化</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>JavaScript</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>TypeScript</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Node</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>React</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/2bb24a/" class="sidebar-link">高阶组件和renderprops</a></li><li><a href="/pages/03b8ca/" class="sidebar-link">react基本使用</a></li><li><a href="/pages/ec14f2/" class="sidebar-link">HOOKS</a></li><li><a href="/pages/9705e8/" class="sidebar-link">create-react-app</a></li><li><a href="/pages/701ca7/" class="sidebar-link">虚拟dom和diff算法</a></li><li><a href="/pages/39404e/" class="sidebar-link">性能优化</a></li><li><a href="/pages/aeef54/" class="sidebar-link">其他</a></li><li><a href="/pages/91cc90/" aria-current="page" class="active sidebar-link">react-router-dom</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#单页面应用的优势和缺陷" class="sidebar-link">单页面应用的优势和缺陷</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#单页面应用原理" class="sidebar-link">单页面应用原理</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#实现单页面应用要处理的三个问题" class="sidebar-link">实现单页面应用要处理的三个问题</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#基本使用" class="sidebar-link">基本使用</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#嵌套路由" class="sidebar-link">嵌套路由</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#实现" class="sidebar-link">实现</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#路由传参-2" class="sidebar-link">路由传参</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#state" class="sidebar-link">state</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#查询字符串" class="sidebar-link">查询字符串</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#useroutes" class="sidebar-link">useRoutes</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#navlink" class="sidebar-link">NavLink</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#navigate" class="sidebar-link">Navigate</a></li><li class="sidebar-sub-header level2"><a href="/pages/91cc90/#hashrouter" class="sidebar-link">HashRouter</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Redux</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>小程序</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><a href="/categories/?category=React" title="分类" data-v-06225672>React</a></li></ul> <div class="info" data-v-06225672><!----> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2023-08-19</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABKFJREFUSA3tVl1oFVcQnrMbrak3QUgkya1akpJYcrUtIqW1JvFBE9LiQ5v6JmJpolbMg32rVrhgoYK0QiMY6i9Y6EMaW5D+xFJaTYItIuK2Kr3+BJNwkxBj05sQY3b3nM6cs2dv9t7NT/vQJw/sndk5M/PNzJkzewGerP+pAmy+ON8lLzUJgA8ZYxYIYZmGYRnctDaWvJJAmTtfP1pvXsBCCPP8QFcCaRkZYACgDZFO4stNIcBCajEOlmmC9XpJ9bAGCaPaPmzPl32dvLSVu3BWCTQs0XQQ6g0DYgwLIoAZbBCdW/i+781o1VVlm/410mw4h06Y7bIPHNyWDyL4FHkX03Q8SrzNhZTZriieckWt7cL6MM85YcLpsi/7O9/iXFT6MswI0DmmpkSaJ0qLxFIm3+i1THHB3zmBH3PYx9CcykcLOeQVVa7QtdxTgQgEleX2AjHYfwA+2ddV77ruGoJUbhGDI09YSNXyMpUt5ylOzxgbUmtOp7NmbNt8v3arjTBfYELmLUV+M+nSawNNAUqpT3ClJWg5I3BLT+cGW/DXNGCa6tx1aakCGEigArTn4TDIPdrXXYKCZNrHLMCOEPvHBlLQ99s9eHB7EB6NTki73CVPQ2F5MSx/uRQixfmq7rK0wYD8w8E905bnPDfwoWs/rfv93NWN/ZfvwsLIU7A09gxECyISeGJkHAau98L97tuw7NXnoPyNF8FcYGLGKsOs0mN3OEyec9esGW/ZEl945dTP34wlR2FZVQWU1q0Cw8Tr7p+hgLLNL0FPxx/Q35mA8aEUrH6nCgwEl0tn7wUiZYJnNRh6DK4UH/k0lfyrsBKdPVv/AriGIQcEDQZ65LBAGe2Rzui9Ybjz7XUppz1/uKBbyVPGkN3ZAeC6hr0x7Nr38N5+EqkoOm17xpoqR9ohQF55ERSvr4Dkr3chNfC3DMzGJlNBElW8w9nsGQvhNGIzDkXzCg8cLK951xHsFBlTJspJNi3ZFIMF2AeDV3q8DNOB+YHi6QTrChDIWDBRi5U5f+ZMfJLu3ccrqxtdxk4SKH336LFxSmkqefwU5T8fhdSdQf9IVKD6aNiwI/hnmcAZ91isYMJIaCUCx9W098+LgruikeTqzqqxKPUwqJyCPJiyemVVZBOijDGjD38Os0jOiSPL1z3SPjXNANbiNPXAdzTfukjjuknNBbyz3nwgTd3AVFqUJ5hpHlq9MveLnWwttUfoygBmvVjuikxND3znrhsELnZk7k+OjIGxeNEkomyLVta0xxn+HZhjBc4YZ/AFjHjz9u3xRZl2BN4aq9nFwWh16IrQ1aHHEd3j1+4/dB9OtH4e29A2H1DyHQRmOSfQZ1Fy7MHBTGB6J/Djq6p3OxyO2cB+4Car7v/o3GXgfAkj23+x9ID1Teoamo/SXcbvSf2PX7Vc8DdCmE1vN9di+32P9/5YR3vLnhCVGUWBjEkr3yh4H8v9CzmsbdhzOKzsJKM90iFdaTMjRPhGVsakRvOaRidljo6H6G7j+ctrJpsP+4COhDIl0La2+FS4+5mlocBaXY5QnGZysIBYoeSsl5qQzrSj/cgNrfuEzlWBfwA+EjrZyWUvpAAAAABJRU5ErkJggg==">react-router-dom<!----></h1> <!----> <div class="theme-vdoing-content content__default"><h1 id="单页面应用"><a href="#单页面应用" class="header-anchor">#</a> 单页面应用</h1> <p>单页面应用（single page web application，SPA），就是只有一张 Web 页面的应用，整个 web 应用只加载一个 HTML 页面并在用户与应用程序交互时动态更新该页面的 Web 应用程序。</p> <h2 id="单页面应用的优势和缺陷"><a href="#单页面应用的优势和缺陷" class="header-anchor">#</a> 单页面应用的优势和缺陷</h2> <ul><li><p>优点</p> <ol><li><p>用户体验好. 切换页面不需要再次请求服务器获取页面,页面加载速度更快</p></li> <li><p>减轻服务器压力. 因为只有一个 web 页面,视图切换时,不会再次向服务器发起请求</p></li></ol></li> <li><p>缺点</p> <ol><li><p>不利于 SEO. 因为所有的页面都在一个 web 页面中动态展示,SEO 效果不如静态页面</p></li> <li><p>第一次加载耗时长. 整个应用的所有页面都写在一个 web 页面中,包裹 js 和 css 都打包成一个文件.第一次加载时就需要更长的时间</p></li></ol></li></ul> <h2 id="单页面应用原理"><a href="#单页面应用原理" class="header-anchor">#</a> 单页面应用原理</h2> <p>在单页 Web 应用程序中，当浏览器向服务器发出第一个请求时，服务器会发回 index.html 文件. 用户需要切换页面时,会改变浏览器地址的路径(但不发送请求). 路径发生变化之后,根据之前配置好的前端路由规则,找到与当前路径匹配的视图,让其视图展示.其他视图隐藏. 展示视图需要渲染的数据,通过 ajax 获取.然后在前端渲染</p> <p><img src="import/images/spa.png" alt=""></p> <h2 id="实现单页面应用要处理的三个问题"><a href="#实现单页面应用要处理的三个问题" class="header-anchor">#</a> 实现单页面应用要处理的三个问题</h2> <ol><li><p>定义路径和视图的一一对应规则(前端路由)</p></li> <li><p>监听浏览器地址栏路径的变化</p></li> <li><p>当路径变化,根据前端路由找到对应的视图并展示,其他视图不展示(在 react 中每一个页面视图都是一个组件)</p></li></ol> <h1 id="react-router-使用"><a href="#react-router-使用" class="header-anchor">#</a> react-router 使用</h1> <blockquote><p>react-router 提供了三个包:</p></blockquote> <div class="language- extra-class"><pre><code>- react-router 核心包
+
+- react-router-dom web 单页面应用使用的包,包含 react-router 核心包(我们下载并使用这个包)
+
+- react-router-native 原生 app 单页面应用使用的包,包含 react-router 核心包
+</code></pre></div><h2 id="基本使用"><a href="#基本使用" class="header-anchor">#</a> 基本使用</h2> <ol><li><p>下包</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code>  npm i react<span class="token operator">-</span>router<span class="token operator">-</span>dom
+</code></pre></div></li> <li><p>在入口文件中使用<code>BrowserRouter</code>包裹整个应用结构</p> <blockquote><p><code>&lt;BrowserRouter&gt;</code>包裹整个应用,只需要使用一次。</p></blockquote> <div class="language-Plain Text extra-class"><pre class="language-plain"><code>// index.js
+import * as React from 'react'
+import * as ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+
+ReactDOM.createRoot(document.getELementById('root')).render(
+  &lt;BrowserRouter&gt;
+    &lt;App /&gt;
+  &lt;/BrowserRouter&gt;
+  )
+</code></pre></div></li> <li><p>在根组件中配置前端路由规则:</p> <blockquote><p><code>&lt;Route&gt;</code> 用于配置前端路由规则</p></blockquote> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Routes<span class="token punctuation">,</span> Route <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+<span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span><span class="token operator">&gt;</span>
+      <span class="token punctuation">{</span><span class="token comment">/* Route必须被Routes包裹 */</span><span class="token punctuation">}</span>
+      <span class="token punctuation">{</span><span class="token comment">/* Route写在哪里,则Route对应的组件就渲染在哪里(这一点只针对一级路由) */</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>Routes<span class="token operator">&gt;</span>
+        <span class="token punctuation">{</span><span class="token comment">/* path属性用于定义路径  element属性用于定义当前路径所对应的组件 */</span><span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/login&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>Login <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+        <span class="token punctuation">{</span><span class="token comment">/* path也可以忽略 /  */</span><span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;home&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>Home <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+        <span class="token punctuation">{</span><span class="token comment">/*Route 也可以不写element. 入按照下面的方式定义,则展示Demo组件的路径为: /users/xxx */</span><span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;users&quot;</span><span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;xxx&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>Demo <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Routes<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span><span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ol> <p><code>&lt;Routes&gt;</code> 每当路径发生变化时,都会查看其所有子 <code>&lt;Route&gt;</code> 元素以找到最佳匹配并呈现 UI</p> <ol><li><p>利用 Link 组件定义导航按钮</p> <blockquote><p>作用: 修改浏览器的地址栏路径,并且不发送请求(最终渲染的是 a 标签)</p></blockquote> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Link <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+
+<span class="token keyword">function</span> <span class="token function">Test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/home&quot;</span><span class="token operator">&gt;</span>点击展示home页面<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ol> <h2 id="嵌套路由"><a href="#嵌套路由" class="header-anchor">#</a> 嵌套路由</h2> <p><img src="import/images/router_demo.gif" alt="嵌套路由"></p> <div class="language-Plain Text extra-class"><pre class="language-plain"><code>// App.js
+import React from 'react'
+import { Routes, Route, Link } from 'react-router-dom'
+// 路由组件推荐使用懒加载的方式引入
+const Home = React.lazy(()=&gt;import('./pages/Home'))
+const Login = React.lazy(()=&gt;import('./pages/Login'))
+const Test1 = React.lazy(()=&gt;import('./pages/Test1'))
+const Test2 = React.lazy(()=&gt;import('./pages/Test2'))
+import './App.css'
+export default function App() {
+  return (
+    &lt;&gt;
+      &lt;div&gt;
+        &lt;Link to=&quot;/home&quot;&gt;首页&lt;/Link&gt;
+        &lt;Link to=&quot;/login&quot;&gt;登录页&lt;/Link&gt;
+        &lt;hr /&gt;
+      &lt;/div&gt;
+      &lt;Routes&gt;
+        &lt;Route path=&quot;/home&quot; element={&lt;Home /&gt;}&gt;
+          {/*Route里面的Route就是嵌套路由,Test1和Test2渲染在Home组件中*/}
+          &lt;Route path=&quot;/home/test1&quot; element={&lt;Test1 /&gt;}&gt;&lt;/Route&gt;
+          &lt;Route path=&quot;/home/test2&quot; element={&lt;Test2 /&gt;}&gt;&lt;/Route&gt;
+        &lt;/Route&gt;
+        &lt;Route path=&quot;/login&quot; element={&lt;Login /&gt;}&gt;&lt;/Route&gt;
+      &lt;/Routes&gt;
+    &lt;/&gt;
+  )
+}
+</code></pre></div><div class="language-Plain Text extra-class"><pre class="language-plain"><code>// Home.js
+import React from 'react'
+import { Link, Outlet } from 'react-router-dom'
+
+export default function Home() {
+  return (
+    &lt;div style={{ height: '100vh', backgroundColor: 'pink' }}&gt;
+      &lt;h1&gt;home&lt;/h1&gt;
+      &lt;Link to=&quot;/home/test1&quot;&gt;test1&lt;/Link&gt; &lt;br /&gt;
+      &lt;Link to=&quot;/home/test2&quot;&gt;test2&lt;/Link&gt;
+      &lt;hr /&gt;
+      {/*Outlet组件决定了嵌套路由组件渲染的位置*/}
+      &lt;Outlet&gt;&lt;/Outlet&gt;
+    &lt;/div&gt;
+  )
+}
+</code></pre></div><h1 id="编程式导航"><a href="#编程式导航" class="header-anchor">#</a> 编程式导航</h1> <blockquote><p>通过运行代码导致的页面切换被叫做编程式导航</p></blockquote> <p>页面切换有两种场景:</p> <ol><li><p>用户点击导航按钮</p></li> <li><p>程序运行到某个指定阶段自动切换页面(比如: 登录成功之后,页面自动切换到首页)</p></li></ol> <h2 id="实现"><a href="#实现" class="header-anchor">#</a> 实现</h2> <blockquote><p>引入<code>useNavigate</code>并调用,返回一个函数.执行返回的函数就可以实现编程式导航</p></blockquote> <div class="language-Plain Text extra-class"><pre class="language-plain"><code>import { useNavigate } from 'react-router-dom'
+export default function Test2() {
+  const navigate = useNavigate()
+  const handle = () =&gt; {
+    //  navigate('目标页面的路径', {
+    //   replace: true, // 是否开启替换历史记录 true为开启,默认值是false
+    // })
+    navigate('/login', {
+      replace: true
+    })
+
+    // 或 navigate(-1) //类似于history.go()方法
+  }
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;test2&lt;/h1&gt;
+      &lt;button onClick={handle}&gt;按钮&lt;/button&gt;
+    &lt;/div&gt;
+  )
+}
+</code></pre></div><h1 id="路由传参"><a href="#路由传参" class="header-anchor">#</a> 路由传参</h1> <blockquote><p>路由传参是值: 页面切换的时候,给目标页面传递数据</p></blockquote> <p>路由传参有三种方式:</p> <ol><li><p>路由参数(数据在路径中,只能传递简单数据)</p></li> <li><p>state(可以传递任何数据)</p></li> <li><p>查询字符串(不推荐)</p></li></ol> <h2 id="路由传参-2"><a href="#路由传参-2" class="header-anchor">#</a> 路由传参</h2> <ol><li><p>定义路由参数</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>Routes<span class="token operator">&gt;</span>
+      <span class="token punctuation">{</span><span class="token comment">/*:id 为路由参数(必填), 可以配置多个*/</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;about/:id&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>About <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+
+      <span class="token punctuation">{</span><span class="token comment">/*:id 为可选路由参数 */</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;about&quot;</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;:id&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>About <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>About <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>Routes<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>传递路由参数</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token comment">// 切换页面的时候传递</span>
+<span class="token function">navigate</span><span class="token punctuation">(</span><span class="token string">'/about/1'</span><span class="token punctuation">)</span> <span class="token comment">//这个1就是路由参数</span>
+<span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/about/2&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>NavLink to<span class="token operator">=</span><span class="token string">&quot;/about/3&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>NavLink<span class="token operator">&gt;</span> <span class="token comment">//2 和 3 就是路由参数</span>
+</code></pre></div></li> <li><p>接收路由参数</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token comment">// 在目标路由组件中接收</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useParams <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+<span class="token comment">// params 是一个对象,里面可以获取到路由参数具体的值</span>
+<span class="token keyword">const</span> params <span class="token operator">=</span> <span class="token function">useParmas</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>params<span class="token punctuation">)</span> <span class="token comment">// {id:1}</span>
+</code></pre></div></li></ol> <h2 id="state"><a href="#state" class="header-anchor">#</a> state</h2> <ol><li><p>传递</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/目标路径&quot;</span> state<span class="token operator">=</span><span class="token punctuation">{</span>要传递数据<span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>NavLink to<span class="token operator">=</span><span class="token string">&quot;/目标路径&quot;</span> state<span class="token operator">=</span><span class="token punctuation">{</span>要传递数据<span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>NavLink<span class="token operator">&gt;</span>
+<span class="token function">navigate</span><span class="token punctuation">(</span><span class="token string">'/目标路径'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+ <span class="token literal-property property">state</span><span class="token operator">:</span> 要传递的数据
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></li> <li><p>接收</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useLocaiton <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+<span class="token keyword">const</span> location <span class="token operator">=</span> <span class="token function">useLocation</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+location<span class="token punctuation">.</span>state <span class="token comment">//可以获取到数据</span>
+</code></pre></div></li></ol> <h2 id="查询字符串"><a href="#查询字符串" class="header-anchor">#</a> 查询字符串</h2> <ol><li><p>传递</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/目标路径?name=zs&amp;age=18&quot;</span> <span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>NavLink to<span class="token operator">=</span><span class="token string">&quot;/目标路径?name=zs&amp;age=18&quot;</span> <span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>NavLink<span class="token operator">&gt;</span>
+<span class="token function">navigate</span><span class="token punctuation">(</span><span class="token string">'/目标路径?name=zs&amp;age=18'</span><span class="token punctuation">)</span>
+</code></pre></div></li> <li><p>接收</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> <span class="token punctuation">[</span>query<span class="token punctuation">,</span> setQuery<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useSearchParams</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment">// query是类似formdata对象,获取数据:query.get('name')</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>query<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'name'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">// zs</span>
+<span class="token comment">// setQuery 可以修改地址栏查询字符串 setQuery(&quot;x=1&amp;y=2&quot;)</span>
+</code></pre></div></li></ol> <h1 id="通过路由表定义路由规则"><a href="#通过路由表定义路由规则" class="header-anchor">#</a> 通过路由表定义路由规则</h1> <p>实际开发中一般会使用<code>路由表</code>动态创建<code>Routes</code>和<code>Route</code>.</p> <p>路由表其实就是一个数组,如下所示:</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> routes <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'home'</span><span class="token punctuation">,</span> <span class="token comment">//path 对应 Route的path</span>
+    <span class="token literal-property property">element</span><span class="token operator">:</span> <span class="token operator">&lt;</span>Home<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Home<span class="token operator">&gt;</span><span class="token punctuation">,</span> <span class="token comment">//element 对应Route的element</span>
+    <span class="token comment">// children 对应 嵌套路由</span>
+    <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'test1'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">element</span><span class="token operator">:</span> <span class="token operator">&lt;</span>Test1<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Test1<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'test2'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">element</span><span class="token operator">:</span> <span class="token operator">&lt;</span>Test2<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Test2<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'about'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">':id'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">element</span><span class="token operator">:</span> <span class="token operator">&lt;</span>About<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>About<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">element</span><span class="token operator">:</span> <span class="token operator">&lt;</span>About<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>About<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span>
+</code></pre></div><h2 id="useroutes"><a href="#useroutes" class="header-anchor">#</a> useRoutes</h2> <p>调用 <code>useRoutes</code>,传入<code>路由表</code>,返回动态创建的 <code>Routes</code> 和 <code>Route</code></p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useRoutes <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+<span class="token keyword">import</span> routes <span class="token keyword">from</span> <span class="token string">'./routes'</span> <span class="token comment">//引入路由表</span>
+<span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token operator">&lt;</span><span class="token operator">&gt;</span><span class="token punctuation">{</span><span class="token function">useRoutes</span><span class="token punctuation">(</span>routes<span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span><span class="token operator">&gt;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 上面的useRoutes返回的结果:</span>
+<span class="token punctuation">;</span><span class="token operator">&lt;</span>Routes<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;home&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>Home <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;test1&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>Test1 <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;test2&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>Test2 <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;about&quot;</span> <span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;:id&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>About <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;&quot;</span> element<span class="token operator">=</span><span class="token punctuation">{</span><span class="token operator">&lt;</span>About <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>Routes<span class="token operator">&gt;</span>
+</code></pre></div><h1 id="其他组件"><a href="#其他组件" class="header-anchor">#</a> 其他组件</h1> <h2 id="navlink"><a href="#navlink" class="header-anchor">#</a> NavLink</h2> <blockquote><p>作用: 与 Link 组件一样,但是可以快速实现导航高亮</p></blockquote> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token comment">// 注意: 默认类名是active, 下面是自定义的style和类名</span>
+<span class="token operator">&lt;</span>NavLink
+    to<span class="token operator">=</span><span class="token string">&quot;login&quot;</span>
+    style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> isActive <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'login'</span><span class="token punctuation">,</span> isActive<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> isActive <span class="token operator">?</span> activeStyle <span class="token operator">:</span> <span class="token keyword">undefined</span>
+    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        login
+<span class="token operator">&lt;</span><span class="token operator">/</span>NavLink<span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span>NavLink
+    to<span class="token operator">=</span><span class="token string">&quot;home&quot;</span>
+    className<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> isActive <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'home'</span><span class="token punctuation">,</span> isActive<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> isActive <span class="token operator">?</span> <span class="token string">'base one'</span> <span class="token operator">:</span> <span class="token string">'base'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        home
+<span class="token operator">&lt;</span><span class="token operator">/</span>NavLink<span class="token operator">&gt;</span>
+
+<span class="token comment">// 注意:  默认,当Home的子组件匹配成功,Home的导航也会高亮.当NavLink上添加了end属性,则Home的子组件匹配成功的时候,Home的导航没有高亮效果</span>
+<span class="token operator">&lt;</span>NavLink
+    to<span class="token operator">=</span><span class="token string">&quot;home&quot;</span>
+    end
+	<span class="token operator">&gt;</span>
+        home
+<span class="token operator">&lt;</span><span class="token operator">/</span>NavLink<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="navigate"><a href="#navigate" class="header-anchor">#</a> Navigate</h2> <blockquote><p>只要 Navigate 组件被解析,就会修改路径,切换视图</p></blockquote> <p>一般用来展示 404 页面</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code><span class="token function">useRoutes</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token operator">...</span>忽略<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'*'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">element</span><span class="token operator">:</span> <span class="token operator">&lt;</span>Navigate to<span class="token operator">=</span><span class="token string">&quot;/404&quot;</span> <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="hashrouter"><a href="#hashrouter" class="header-anchor">#</a> HashRouter</h2> <blockquote><p>作用与 BrowserRouter 一样,但是修改的是地址栏的 hash 值.</p></blockquote> <h1 id="案例"><a href="#案例" class="header-anchor">#</a> 案例</h1> <p><img src="import/images/rdemo.gif" alt="案例"></p></div></div> <!----> <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/pages/aeef54/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">其他</div></a> <a href="/pages/8a2aaa/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">Redux介绍</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/pages/aeef54/" class="prev">其他</a></span> <span class="next"><a href="/pages/8a2aaa/">Redux介绍</a>→
+      </span></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/pages/c190e1/"><div>
+            函数进阶
+            <!----></div></a> <span class="date">08-19</span></dt></dl><dl><dd>02</dd> <dt><a href="/pages/9705e8/"><div>
+            create-react-app
+            <!----></div></a> <span class="date">08-19</span></dt></dl><dl><dd>03</dd> <dt><a href="/pages/03b8ca/"><div>
+            react基本使用
+            <!----></div></a> <span class="date">08-19</span></dt></dl> <dl><dd></dd> <dt><a href="/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><div class="icons"><a href="mailto:16631085276@163.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://github.com/jlk-lebron" title="GitHub" target="_blank" class="iconfont icon-github"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2022-2023
+    <span>Lebron Jia  | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a></span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.8d6e8c80.js" defer></script><script src="/assets/js/2.d1a10b95.js" defer></script><script src="/assets/js/26.b4839473.js" defer></script>
+  </body>
+</html>
